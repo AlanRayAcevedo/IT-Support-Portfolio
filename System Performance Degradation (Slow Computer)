@@ -1,0 +1,32 @@
+Issue: 
+
+User reports system is slow, unresponsive at times, and applications take an extended period to load.
+
+Environment:
+
+Windows 10/11 workstation
+Standard office configuration
+
+Troubleshooting Steps Taken:
+
+Interviewed user to determine symptoms and frequency of issue
+Reviewed system resource usage via Task Manager
+Identified high memory and/or CPU utilization by active processes
+Checked Startup applications for potential performance impact
+Evaluated system resource constraints (RAM and overall system performance profile)
+Assessed potential need for hardware upgrade based on system limitations
+
+Root Cause (Potential):
+System performance degradation likely caused by high resource utilization from background applications and/or hardware limitations (insufficient RAM or CPU capacity).
+
+Resolution:
+
+Identified and reviewed high-impact processes
+Disabled non-essential startup applications where appropriate
+Recommended hardware upgrade evaluation if performance issues persist
+
+Tools Used:
+
+Task Manager
+System Performance Monitoring Tools
+Windows system utilities

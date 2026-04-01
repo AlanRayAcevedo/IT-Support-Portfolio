@@ -1,0 +1,32 @@
+Issue:
+User reports inability to log into their account, receiving an “incorrect password” error despite entering valid credentials.
+
+Environment:
+
+Windows domain environment
+Standard user account authentication
+
+Troubleshooting Steps Taken:
+
+Confirmed error message and user-reported symptoms
+Checked for account lockout status due to multiple failed login attempts
+Verified account is active and not disabled or expired
+Performed identity verification in accordance with security policy prior to any changes
+Reviewed authentication status and reset credentials following standard procedure
+Ensured account was configured to require password update at next login (if applicable)
+
+Root Cause:
+Account lockout due to multiple failed login attempts or password expiration within authentication system.
+
+Resolution:
+
+Account unlocked through administrative tools
+Password reset performed following security verification procedures
+User successfully logged in after reset
+Login confirmed during live verification session
+
+Tools Used:
+
+Authentication / account management system (e.g., Active Directory conceptually)
+Help desk ticketing workflow
+Password reset tools

@@ -1,0 +1,34 @@
+Issue:
+User reports inability to access a shared network folder that was previously accessible. Issue began unexpectedly without user-side configuration changes.
+
+Environment:
+
+Windows domain environment
+Network shared drive (mapped and UNC access supported)
+Standard user workstation
+
+Troubleshooting Steps Taken:
+
+Confirmed issue is isolated to shared network resource
+Verified general network connectivity using external and internal ping tests
+Checked access method (mapped drive / UNC path) for validity
+Investigated potential permission or group membership changes
+Verified accessibility of network share from alternate endpoints (if applicable)
+Identified potential access control or group policy-related restriction
+
+Root Cause:
+Access likely affected due to permission changes, group membership modification, or mapping configuration issue.
+
+Resolution:
+
+Restored access by verifying correct group membership and permissions
+Re-established network drive mapping (if applicable)
+Confirmed user regained access to shared resource
+Validated successful access with user
+
+Tools Used:
+
+Network connectivity tools (ping)
+File share access via UNC path
+User/group permission review (Active Directory concept)
+Network drive mapping utilities
